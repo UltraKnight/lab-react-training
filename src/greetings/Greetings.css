@@ -1,0 +1,11 @@
+.Greetings {
+    max-width: 500px;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
+}
+
+.Greetings h2 {
+    margin: 0;
+    padding: 0;
+}

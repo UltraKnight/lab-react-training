@@ -1,0 +1,17 @@
+.BoxColor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 500px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
+}
+
+.BoxColor h3 {
+    margin: 0;
+    padding: 0;
+}

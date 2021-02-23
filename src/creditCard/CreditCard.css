@@ -1,0 +1,30 @@
+.CreditCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-cent;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 300px;
+    height: 170px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.CreditCard img {
+    align-self: flex-end;
+}
+
+.CreditCard h2 {
+    align-self: center;
+    letter-spacing: 2px;
+}
+
+.CreditCard span {
+    margin-right: 15px;
+}
+
+.CreditCard p {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,15 @@
+.IdCard {
+    display: flex;
+    max-width: 800px;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.IdCard div {
+    margin: 5px;
+}
+
+.IdCard div p {
+    margin: 0;
+    padding: 0;
+}

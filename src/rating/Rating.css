@@ -1,0 +1,21 @@
+.Rating {
+    --percent: calc(var(--rating) / 5 * 100%);
+    position: relative;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+    font-size: 4rem;
+    line-height: 4rem;
+    width: fit-content;
+    background-image: linear-gradient(90deg, black, black var(--percent), white var(--percent));
+    background-clip: text;
+    background-position-x: 0;
+    -webkit-text-stroke: 2px black;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.light {
+    background-image: linear-gradient(90deg, white, white var(--percent), transparent var(--percent));
+    -webkit-text-stroke: 2px white;
+}

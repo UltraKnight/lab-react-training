@@ -1,0 +1,32 @@
+.DriverCard {
+    background-color: royalblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.DriverCard .pic {
+    display: inline-block;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.DriverCard div {
+    color: white;
+    margin-left: 15px;
+}
+
+.DriverCard h2, .DriverCard p {
+    margin: 0;
+    padding: 0;
+    line-height: 140%;
+}
+
+.DriverCard .Rating {
+    font-size: 2rem;
+}
