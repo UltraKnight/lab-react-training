@@ -10,7 +10,7 @@ export default class FaceBook extends Component {
     }
 
     handleClick = (e) => {
-        let profiles = [... profilesArr];
+        let profiles = [...profilesArr];
         this.setState({
             profilesArr: profiles.filter(profile => {
                 return e.target.value === 'All' ? profile : profile.country === e.target.value;
@@ -20,14 +20,14 @@ export default class FaceBook extends Component {
     }
 
     sortByLastName = () => {
-        let profiles = [... this.state.profilesArr];
+        let profiles = [...this.state.profilesArr];
         this.setState({
             profilesArr: profiles.sort((a, b) => a.lastName.localeCompare(b.lastName))
         })
     }
 
     sortByName = () => {
-        let profiles = [... this.state.profilesArr];
+        let profiles = [...this.state.profilesArr];
         this.setState({
             profilesArr: profiles.sort((a, b) => a.firstName.localeCompare(b.firstName))
         })
