@@ -17,7 +17,7 @@ export default class ClickablePicture extends Component {
         const {isClicked} = this.state;
         return (
             <div className='ClickablePicture'>
-                <img onClick={this.handleClick} src={isClicked ? imgClicked : img} />
+                <img onClick={this.handleClick} src={isClicked ? imgClicked : img} alt="boy" />
             </div>
         )
     }

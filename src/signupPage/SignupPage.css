@@ -1,0 +1,57 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+form input, select {
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input.invalid, input.invalid:focus, input.invalid:active {
+    border-color: red;
+    outline: none;
+}
+
+input.valid, input.valid:focus, input.valid:active {
+    border-color: springgreen;
+    outline: none;
+}
+
+span.valid {
+    color: springgreen;
+}
+
+span.invalid {
+    color: red;
+}
+
+form button {
+    margin-top: 10px;
+    width: fit-content;
+    padding: 8px;
+    align-self: center;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: royalblue;
+    transition: background-color 0.2s;
+}
+
+form button:hover {
+    background-color: mediumblue;
+}
+
+label {
+    margin-top: 4px;
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
+.form-data {
+    max-width: 300px;
+}
